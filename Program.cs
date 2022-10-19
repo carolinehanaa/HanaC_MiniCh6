@@ -15,7 +15,7 @@ while (playAgain == "yes")
     Console.WriteLine("Enter a number I will tell you if its even or odd:");
     string? number1 = Console.ReadLine();
 
-    bool validNum = int.TryParse(number1, out number);
+    bool validNum = Int32.TryParse(number1, out number);
 
     int remainder = number % 2;
 
